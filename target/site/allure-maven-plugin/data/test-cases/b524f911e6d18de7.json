@@ -1,0 +1,90 @@
+{
+  "uid" : "b524f911e6d18de7",
+  "name" : "Логин пользователя в системе без обязательных полей",
+  "fullName" : "ru.praktikum_services.stellarburgers.user.login.LoginWithoutMandatoryFieldsTest.checkNewCourierCanNotLoginWithoutMandatoryFields[2]",
+  "historyId" : "f1d1491b231dae80f41dde190ab17112",
+  "time" : {
+    "start" : 1643743168121,
+    "stop" : 1643743168420,
+    "duration" : 299
+  },
+  "description" : "Логин пользователя в системе без обязательных полей",
+  "descriptionHtml" : "<p>Логин пользователя в системе без обязательных полей</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Логин пользователя в системе без обязательных полей",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Логирование в систему под пользователем",
+      "time" : {
+        "start" : 1643743168121,
+        "stop" : 1643743168409,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum_services.stellarburgers.model.User@aedede3"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum_services.stellarburgers.user.login"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum_services.stellarburgers.user.login.LoginWithoutMandatoryFieldsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkNewCourierCanNotLoginWithoutMandatoryFields[2]"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum_services.stellarburgers.user.login.LoginWithoutMandatoryFieldsTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "31539@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Логин пользователя в системе"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b524f911e6d18de7.json",
+  "parameterValues" : [ ]
+}

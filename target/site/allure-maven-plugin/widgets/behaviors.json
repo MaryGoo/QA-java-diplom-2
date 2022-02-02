@@ -1,0 +1,48 @@
+{
+  "total" : 12,
+  "items" : [ {
+    "uid" : "edd559e2751961e199de9a88eda4e603",
+    "name" : "Изменение пользователя",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "ee91458c5aa62a5671ac067448cc9d04",
+    "name" : "Логин пользователя в системе",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "fc2ee7b086080c3e9584ac177e29e953",
+    "name" : "Создание пользователя",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "9ae9737445d3d045b20dce0377309d9a",
+    "name" : "Создание существующего пользователя",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

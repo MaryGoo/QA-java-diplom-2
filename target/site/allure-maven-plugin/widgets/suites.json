@@ -1,0 +1,103 @@
+{
+  "total" : 9,
+  "items" : [ {
+    "uid" : "7785a401101a193d3aa3f5dbc45e853d",
+    "name" : "ru.praktikum_services.stellarburgers.order.CreateTest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "d8e27011e7c790929a49a3e99e57204c",
+    "name" : "ru.praktikum_services.stellarburgers.order.GetOrdersFromIndividualUserTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "1f945c68394055df4892effb3473102f",
+    "name" : "ru.praktikum_services.stellarburgers.user.update.UpdateUserTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "56fdfbd3942d82f4068f11c55a182c02",
+    "name" : "ru.praktikum_services.stellarburgers.user.сreate.CreateNewUserWithoutMandatoryFieldsTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "7b34bb791e903aca74e4132602f002d9",
+    "name" : "ru.praktikum_services.stellarburgers.user.login.LoginWithoutMandatoryFieldsTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "318e5a19a3d0c269a362483308594d8c",
+    "name" : "ru.praktikum_services.stellarburgers.user.update.NegativeUpdateUserTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "3931f61a782155fbc51930c8706325ce",
+    "name" : "ru.praktikum_services.stellarburgers.user.сreate.CreateUserTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "67a89208b559ccaa4804681af2782a4b",
+    "name" : "ru.praktikum_services.stellarburgers.user.login.LoginTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a3c735a9be8376baf566f9eb7146e385",
+    "name" : "ru.praktikum_services.stellarburgers.user.login.LoginWithWrongUserTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
