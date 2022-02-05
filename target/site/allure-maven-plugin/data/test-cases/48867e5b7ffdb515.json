@@ -1,0 +1,156 @@
+{
+  "uid" : "48867e5b7ffdb515",
+  "name" : "Создать заказ без ингредиентов. Получить ошибку",
+  "fullName" : "ru.praktikum_services.stellarburgers.order.CreateTest.createOrderWithoutIngredientsFail",
+  "historyId" : "9895012bd8f899849024b3e6a9074772",
+  "time" : {
+    "start" : 1643743120774,
+    "stop" : 1643743122571,
+    "duration" : 1797
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1643743120774,
+        "stop" : 1643743121164,
+        "duration" : 390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum_services.stellarburgers.model.User@10faebc9"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Получение списка ингридиентов",
+      "time" : {
+        "start" : 1643743121164,
+        "stop" : 1643743121414,
+        "duration" : 250
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Логирование в систему под пользователем",
+      "time" : {
+        "start" : 1643743121434,
+        "stop" : 1643743121836,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum_services.stellarburgers.model.User@10faebc9"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Создать закать для пользователя",
+      "time" : {
+        "start" : 1643743121845,
+        "stop" : 1643743122242,
+        "duration" : 397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "ingredients",
+        "value" : "{}"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZjk4NzkwOTk5ZmIyMDAxYjZjODQ5ZCIsImlhdCI6MTY0Mzc0MzEyMSwiZXhwIjoxNjQzNzQ0MzIxfQ.Ys09VRYCGxU3BKXH51M4Yzamov9CsUQAwyVd2hrO3_c"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Удалить пользователя",
+      "time" : {
+        "start" : 1643743122260,
+        "stop" : 1643743122571,
+        "duration" : 311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYxZjk4NzkwOTk5ZmIyMDAxYjZjODQ5ZCIsImlhdCI6MTY0Mzc0MzEyMSwiZXhwIjoxNjQzNzQ0MzIxfQ.Ys09VRYCGxU3BKXH51M4Yzamov9CsUQAwyVd2hrO3_c"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum_services.stellarburgers.order"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum_services.stellarburgers.order.CreateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithoutIngredientsFail"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum_services.stellarburgers.order.CreateTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "31539@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48867e5b7ffdb515.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,90 @@
+{
+  "uid" : "f851610fc7a159ed",
+  "name" : "Создание пользователя без обязательных полей невозможно",
+  "fullName" : "ru.praktikum_services.stellarburgers.user.сreate.CreateNewUserWithoutMandatoryFieldsTest.checkUserCanNotBeCreatedWithoutMandatoryFields[1]",
+  "historyId" : "67b68e83e7446e5c570b40e57ac57620",
+  "time" : {
+    "start" : 1643743163618,
+    "stop" : 1643743164330,
+    "duration" : 712
+  },
+  "description" : "Создание пользователя без обязательных полей невозможно",
+  "descriptionHtml" : "<p>Создание пользователя без обязательных полей невозможно</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Создание пользователя без обязательных полей невозможно",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Создание пользователя",
+      "time" : {
+        "start" : 1643743163618,
+        "stop" : 1643743164321,
+        "duration" : 703
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "ru.praktikum_services.stellarburgers.model.User@6efa59d6"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.praktikum_services.stellarburgers.user.сreate"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.praktikum_services.stellarburgers.user.сreate.CreateNewUserWithoutMandatoryFieldsTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkUserCanNotBeCreatedWithoutMandatoryFields[1]"
+  }, {
+    "name" : "suite",
+    "value" : "ru.praktikum_services.stellarburgers.user.сreate.CreateNewUserWithoutMandatoryFieldsTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Pro-Sergej.local"
+  }, {
+    "name" : "thread",
+    "value" : "31539@MacBook-Pro-Sergej.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "story",
+    "value" : "Создание пользователя"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f851610fc7a159ed.json",
+  "parameterValues" : [ ]
+}
