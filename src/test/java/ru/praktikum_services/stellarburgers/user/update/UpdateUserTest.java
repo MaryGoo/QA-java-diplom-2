@@ -7,7 +7,6 @@ import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.After;
-import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import ru.praktikum_services.stellarburgers.client.UserClient;
@@ -53,8 +52,8 @@ public class UpdateUserTest {
         response.assertThat().statusCode(SC_OK);
         response.assertThat().extract().path("success").equals(true);
         HashMap<String, String> userInfo = response.extract().path("user");
-        Assert.assertEquals(newEmail.toLowerCase(), userInfo.get("email"));
-        Assert.assertEquals(user.name.toLowerCase(), userInfo.get("name"));
+        userInfo.get("email").equals(newEmail.toLowerCase());
+        userInfo.get("name").equals(user.name.toLowerCase());
     }
 
     @Test
@@ -69,9 +68,7 @@ public class UpdateUserTest {
         //Проверка успешной замены пароля
         response.assertThat().statusCode(SC_OK);
         response.assertThat().extract().path("success").equals(true);
-        HashMap<String, String> userInfo = response.extract().path("user");
-        Assert.assertEquals(user.name.toLowerCase(), userInfo.get("name"));
-        Assert.assertEquals(user.email.toLowerCase(), userInfo.get("email"));
+
         //Проверка авторизации под пользователем с новым паролем
         User userNew = new User(user.email, newPassword, user.name);
         ValidatableResponse responseLoginNewPass = userClient.login(userNew);
@@ -91,7 +88,7 @@ public class UpdateUserTest {
         response.assertThat().statusCode(SC_OK);
         response.assertThat().extract().path("success").equals(true);
         HashMap<String, String> userInfo = response.extract().path("user");
-        Assert.assertEquals(user.email.toLowerCase(), userInfo.get("email"));
-        Assert.assertEquals(newName.toLowerCase(), userInfo.get("name"));
+        userInfo.get("email").equals(user.email.toLowerCase());
+        userInfo.get("name").equals(newName.toLowerCase());
     }
 }

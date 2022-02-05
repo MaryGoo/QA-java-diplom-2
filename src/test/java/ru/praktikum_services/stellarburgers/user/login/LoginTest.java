@@ -37,15 +37,14 @@ public class LoginTest {
     @Description("Логин пользователя в системе. Позитивный сценарий")
     @DisplayName("Логин пользователя в системе. Позитивный сценарий")
     public void checkNewCourierCanLogin() {
-        //Act
-        response = userClient.login(user);
 
-        //Assert
+        response = userClient.login(user);
+        accessToken = response.extract().path("accessToken");
+
         response.assertThat().statusCode(SC_OK);
         response.assertThat().extract().path("success").equals(true);
         response.assertThat().extract().path("accessToken").equals(is(not((null))));
         response.assertThat().extract().path("refreshToken").equals(is(not((null))));
         response.assertThat().extract().path("user").equals(is(not((null))));
-        accessToken = response.extract().path("accessToken");
     }
 }

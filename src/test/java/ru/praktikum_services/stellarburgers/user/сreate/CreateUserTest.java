@@ -46,8 +46,6 @@ public class CreateUserTest {
     public void checkTheSameUserCanNotBeCreated() {
         User user = User.getRandom();
         response = userClient.create(user);
-        response.assertThat().statusCode(SC_OK);
-
         response = userClient.create(user);
 
         response.assertThat().extract().path("success").equals(false);

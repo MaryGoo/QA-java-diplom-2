@@ -48,7 +48,6 @@ public class LoginWithoutMandatoryFieldsTest {
 
         response = userClient.login(body);
 
-        System.out.println(response);
         response.assertThat().statusCode(SC_UNAUTHORIZED);
         response.assertThat().extract().path("message").equals("email or password are incorrect");
     }
